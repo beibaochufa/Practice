@@ -1,0 +1,125 @@
+* {
+	margin: 0; 
+	padding: 0;
+	font-family: Verdana, Geneva, sans-serif,"宋体";
+	font-size: 14px;
+	color: #323232;;
+	list-style:none;/*无序列表不显示前面的标记*/
+	}/*全局选择器*/
+
+a {text-decoration: none;}
+h2 {line-height: 30px; border-bottom: 1px solid #B1DDE9; margin-bottom:10px;}
+h2 span {float: right;}
+h2 span a {font-size: 12px;font-weight:normal;}
+#wrap { 
+	margin: 0 auto; 
+	width: 910px;
+}
+
+header {
+	width: 100%;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+.logo {width: 100%; 
+	margin-top: 5px;
+	overflow: hidden;
+}
+.logo h1 {
+	float: left;
+	background: url(../images/logo.gif) no-repeat;
+	width: 218px;
+	height: 63px;
+	cursor: pointer;/*光标呈现为指示链接的指针（一只手）*/
+}
+.logo dl {float: right; margin-top: 10px;}
+.logo dt {font-weight: bold; color:#5a5a5a; line-height: 26px;}
+.logo dd {font-size:12px; color:#828282;line-height: 24px;}
+nav {
+	margin-top: 8px; 
+	width: 100%;
+	background: url(../images/navbg.gif) no-repeat;
+	overflow: hidden;
+}
+nav ul {margin-left: 30px; line-height: 36px;}
+nav ul li {
+	float: left;	
+	margin: 0 11px;
+	font-weight: bold;
+	text-align:center;
+	width: 100px;
+}
+nav li:hover {background: url(../images/home.gif) 0 4px no-repeat; background-size: 100px 32px;}
+/* 0 4px 是放置的左上角的位置*/
+nav li a {color: #fff;}
+nav li a:hover {color: #000;}
+#QQLab {
+	background: url(../images/arrow_r.gif) 0 10px no-repeat;
+	float: right;
+	overflow: hidden;
+	margin-right: 30px;
+}
+#QQLab a:hover {color: #fff;}
+
+#mainbody {width: 100%; overflow: hidden;}
+.software {
+	width: 600px; 
+	float: left;
+	overflow: hidden;
+	margin-right: 30px;
+}/*margin可优化,只适用两列布局*/
+.software a {color: #2878A7;}
+.softwarelist li {overflow: hidden;}
+.softwarelist li dl{
+	float:left; 
+	padding-left: 45px; 
+	margin-bottom: 15px; 
+	line-height: 25px;
+}
+.softwarelist li a {text-decoration: underline;}
+.softwarelist li a:hover {text-decoration: none;}
+.softwarelist dt {font-size: 12px; color:#9e9e9e;}
+.softwarelist dt a { font-weight: bold; margin-right: 10px;}
+.new {background: url(../images/new.gif) right no-repeat; padding-right: 15px;  line-height: 25px;}
+.softwarelist li span {
+	font-size: 12px;
+	float: right; 
+	line-height: 25px; 
+	background: url(../images/downicon.gif) left no-repeat; 
+	padding-left: 15px;} 
+.softwarelist li span a {font-size: 12px;}
+.software_1 {background: url(../images/icon_1.gif) 0 5px no-repeat;}
+.software_2 {background: url(../images/icon_2.gif) 0 5px no-repeat;}
+.software_3 {background: url(../images/icon_3.gif) 0 5px no-repeat;}
+.software_4 {background: url(../images/icon_4.gif) 0 5px no-repeat;}
+.software_5 {background: url(../images/icon_5.gif) 0 5px no-repeat;}
+.software_6 {background: url(../images/icon_6.gif) 0 5px no-repeat;}
+
+.sidebar {
+	width: 280px; 
+	float: right;
+}
+.sidebar ul li a {
+	color: #2878A7; 
+	font-size: 12px; 
+	line-height: 23px;
+}
+.sidebar ul li a:hover {text-decoration: underline;}
+.box1, .box2, .box3 {margin-bottom: 13px;}
+.box2 h2 a {color: #2878A7;}
+.box2 h2 a:hover {text-decoration: underline;}
+.box2 li {line-height: 32px;}
+.download {float:right; background: url(../images/downicon.gif) left no-repeat; padding-left: 15px;}
+.sort1 {background: url(../images/soft_r_1.gif) left no-repeat; padding-left: 20px;}
+.sort2 {background: url(../images/soft_r_2.gif) left no-repeat; padding-left: 20px;}
+.sort3 {background: url(../images/soft_r_3.gif) left no-repeat; padding-left: 20px;}
+.sort4 {background: url(../images/soft_r_4.gif) left no-repeat; padding-left: 20px;}
+.sort5 {background: url(../images/soft_r_5.gif) left no-repeat; padding-left: 20px;}
+.sort6 {background: url(../images/soft_r_6.gif) left no-repeat; padding-left: 20px;}
+
+.box3 li {width: 90px; float: left; line-height: 28px;}
+
+
+footer {color:#9e9e9e; width: 100%; text-align: center; font-size: 12px; line-height: 24px;}
+
+.pohto_margin {margin-bottom: 10px;}
